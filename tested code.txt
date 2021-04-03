@@ -1,0 +1,54 @@
+tested code
+code: 1
+table 5
+addi t1,x0,5   #table 5
+addi t2,x0,10
+addi t3,x0,50
+
+add:
+   addi t1,t1,5
+   beq t1,t3,end
+   
+jal add
+ end:
+
+code: 2
+addi t0,x0,1 
+slli t1,t0,0x3
+sw t1,0x0(t0) 
+lw t2,0x0(t0)
+
+code 3:
+addi x1,x0,3
+addi x3,x0,3
+and x2,x3,x1
+sll x4,x1,x3
+beq x1,x3,label
+or x4,x3,x2
+ori x4,x3,2
+xor x5,x3,x2
+xori x5,x3,2
+label:
+sra x6,x3,x2
+srai x6,x3,2
+slt x7,x3,x2
+slti x7,x3,2
+sltu x8,x3,x2
+sltiu x8,x3,2
+sw x3,0x0(x3)
+lw x3,0x0(x3)
+code: 4
+counting:
+li t0,0
+li t1,1
+li a0,100
+jal add
+beq t0,a0,end
+
+
+add:
+     addi t0,t0,1
+     ret
+
+
+end:
