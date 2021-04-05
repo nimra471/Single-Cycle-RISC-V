@@ -51,5 +51,5 @@ first is Fetch which is PC Program counter that connects to the Instruction Memo
 25.BLTU
 26.BGEU
 ### REFERENCE:
-https://www.amazon.com/dp/0128122757
-https://riscv.org/technical/specifications/
+1.https://www.amazon.com/dp/0128122757
+2.https://riscv.org/technical/specifications/
