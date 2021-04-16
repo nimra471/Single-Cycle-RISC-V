@@ -11,7 +11,7 @@ LOGISIM SOFTWARE VENUS ONLINE SIMULATOR FOR CODING AND GIT GITHUB.
 6.Program counter/Instruction Pointer-Memory
 7.Instruction Memory(ROM)
 8.Data Memory(RAM)
-### UNDER THE GUIDENCE:
+### UNDER THE GUIDANCE:
 ZEESHAN RAFIQUE
 ### PROCEDURE/DESIGNING:
 The procedure of designing Single Cycle Risc-V on logisim ,this procedure contains 4 steps which are following:
